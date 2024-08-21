@@ -1,0 +1,30 @@
+button {
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(249, 249, 249);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#dataTable {
+    display: none; /* Initially hide the table */
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 700px;
+}
+#dataTable img {
+    width: 180px;
+    height: 180px;
+}
